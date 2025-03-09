@@ -1,0 +1,49 @@
+Create a sleek and modern **Graphic Design Portfolio Website** for "EPX Design" using **HTML, CSS, and JavaScript**. The design should be simple, elegant, and visually appealing.  
+
+### **Brand Identity & Colors:**  
+- Primary Background: **#ffffff** (White)  
+- Secondary Background: **#1f2833** (Dark Blue)  
+- Accent Gradient: **#00edff → #3a8ee7** (Cyan to Blue)  
+- Typography: Clean, modern sans-serif font.  
+
+### **Website Structure:**  
+
+1. **Header:**  
+   - Display the logo "EPX Design" on the left.  
+   - Navigation menu (Home, Portfolio, Clients, Contact).  
+   - Fixed at the top for easy access.  
+
+2. **Hero Section:**  
+   - A large, visually striking introduction with the brand name "EPX Design".  
+   - A tagline like **"Bringing Your Vision to Life with Stunning Designs"**.  
+   - Subtle animation on text for a modern touch.  
+
+3. **Portfolio Section:**  
+   - A responsive **grid layout** showcasing previous work.  
+   - Each item should be a clickable **image thumbnail** that opens in a lightbox modal for a better view.  
+   - Smooth hover effects.  
+
+4. **Clients Section:**  
+   - A **grid layout** displaying previous client logos.  
+   - Each logo should have the company name written underneath.  
+   - Subtle hover effect to make it interactive.  
+
+5. **Contact Section:**  
+   - A **WhatsApp button** with a **WhatsApp icon** to allow users to directly contact EPX Design.  
+   - The button should have a gradient background **(#00edff → #3a8ee7)** and smooth hover effect.  
+   - Example: "📩 Contact Us on WhatsApp".  
+
+6. **Footer:**  
+   - Simple and minimal, with copyright information:  
+     **"© 2025 EPX Design. All Rights Reserved."**  
+   - Links to social media (icons only, aligned horizontally).  
+
+### **Additional Features:**  
+- **Smooth scrolling effect** for better user experience.  
+- **Responsive design** for both desktop and mobile.  
+- **Minimal but elegant animations** (e.g., fade-in effects for sections).  
+
+### **Technology Stack:**  
+- **HTML, CSS (Tailwind or Flexbox/Grid for layout), JavaScript for interactivity**.  
+- Can use **AOS (Animate on Scroll)** for subtle animations.  
+- Ensure **fast loading** and smooth performance.  
