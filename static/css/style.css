@@ -277,7 +277,7 @@ h2 {
     border: none;
     color: var(--text-color);
     cursor: pointer;
-    padding: 8px;
+    padding: 2px;
     font-size: 1.2rem;
     transition: transform 0.3s ease;
 }
