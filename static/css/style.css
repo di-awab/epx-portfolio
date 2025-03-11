@@ -52,6 +52,13 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.logo img {
+    width: 120px; /* عرض الشعار */
+    height: auto; /* يحافظ على تناسب الأبعاد */
+    max-height: 50px; /* الحد الأقصى للارتفاع */
+}
+
+
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
