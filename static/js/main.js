@@ -1,11 +1,12 @@
 // Theme toggle functionality
 const themeToggle = document.getElementById('theme-toggle');
 const themeIcon = themeToggle.querySelector('i');
+const logo = document.getElementById('logo'); // عنصر الشعار
 
 // Check for saved theme preference
 const savedTheme = localStorage.getItem('theme') || 'light';
 document.documentElement.setAttribute('data-theme', savedTheme);
-updateThemeIcon(savedTheme);
+updateTheme(savedTheme);
 
 // Theme toggle click handler
 themeToggle.addEventListener('click', () => {
@@ -14,11 +15,12 @@ themeToggle.addEventListener('click', () => {
 
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
-    updateThemeIcon(newTheme);
+    updateTheme(newTheme);
 });
 
-function updateThemeIcon(theme) {
+function updateTheme(theme) {
     themeIcon.className = theme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+    logo.src = theme === 'light' ? 'logo.png' : 'logo2.png'; // تغيير الشعار حسب الوضع
 }
 
 // Initialize AOS
