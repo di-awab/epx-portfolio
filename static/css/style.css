@@ -117,10 +117,6 @@ h2 {
     color: var(--secondary-bg);
 }
 
-h3 {
-    margin: 5rem 0; /* مسافة 2rem من الأعلى والأسفل */
-/*     text-align: center; /* توسيط النص */ */
-}
 
 .portfolio-grid {
     display: grid;
@@ -140,14 +136,6 @@ h3 {
     height: 300px;
     object-fit: cover;
     transition: transform 0.3s ease;
-}
-
-
-.portfolio-item2 img {
-    width: 100%; /* العرض الكامل للعنصر الأب */
-    height: 300px; /* الارتفاع يتكيف تلقائيًا */
-    aspect-ratio: 9 / 16; /* نسبة العرض إلى الارتفاع 9:16 */
-    object-fit: cover; /* الحفاظ على نسبة الصورة دون تشويه */
 }
 
 .portfolio-overlay {
