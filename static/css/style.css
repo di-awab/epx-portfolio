@@ -54,7 +54,7 @@ body {
 
 .logo img {
     width: auto; /* يجعل العرض متناسبًا مع الارتفاع */
-    height: 100px; /* يحدد ارتفاعًا ثابتًا لضمان تناسب الحجم */
+    height: 50px; /* يحدد ارتفاعًا ثابتًا لضمان تناسب الحجم */
     max-width: 100%; /* يمنع تجاوز الحجم الطبيعي */
     object-fit: contain; /* يمنع التشوه ويحافظ على الجودة */
 }
@@ -116,7 +116,6 @@ h2 {
     margin-bottom: 3rem;
     color: var(--secondary-bg);
 }
-
 
 .portfolio-grid {
     display: grid;
