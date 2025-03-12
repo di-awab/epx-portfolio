@@ -118,8 +118,8 @@ h2 {
 }
 
 h3 {
-    margin: 10rem 0; /* مسافة 2rem من الأعلى والأسفل */
-    text-align: center; /* توسيط النص */
+    margin: 5rem 0; /* مسافة 2rem من الأعلى والأسفل */
+/*     text-align: center; /* توسيط النص */ */
 }
 
 .portfolio-grid {
@@ -142,27 +142,12 @@ h3 {
     transition: transform 0.3s ease;
 }
 
-.portfolio-item2 {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.portfolio-item2:hover .portfolio-overlay {
-    opacity: 1;
-}
-
-.portfolio-item2:hover img {
-    transform: scale(9.16);
-}
 
 .portfolio-item2 img {
     width: 100%; /* العرض الكامل للعنصر الأب */
     height: 300px; /* الارتفاع يتكيف تلقائيًا */
     aspect-ratio: 9 / 16; /* نسبة العرض إلى الارتفاع 9:16 */
     object-fit: cover; /* الحفاظ على نسبة الصورة دون تشويه */
-    transition: transform 0.3s ease;
 }
 
 .portfolio-overlay {
