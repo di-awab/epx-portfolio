@@ -7,8 +7,6 @@
     --gradient-end: #3a8ee7;
     --card-bg: #ffffff;
     --header-bg: rgba(255, 255, 255, 0.95);
-    --logo-light: url("img/logo.png");
-    --logo-dark: url("img/logo2.png");
 }
 
 [data-theme="dark"] {
@@ -19,7 +17,6 @@
     --gradient-end: #3a8ee7;
     --card-bg: #2c3e50;
     --header-bg: rgba(31, 40, 51, 0.95);
-    content: var(--logo-dark);
 }
 
 * {
