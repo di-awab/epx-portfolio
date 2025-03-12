@@ -54,7 +54,7 @@ body {
 
 .logo img {
     width: auto; /* يجعل العرض متناسبًا مع الارتفاع */
-    height: 50px; /* يحدد ارتفاعًا ثابتًا لضمان تناسب الحجم */
+    height: 100px; /* يحدد ارتفاعًا ثابتًا لضمان تناسب الحجم */
     max-width: 100%; /* يمنع تجاوز الحجم الطبيعي */
     object-fit: contain; /* يمنع التشوه ويحافظ على الجودة */
 }
@@ -118,7 +118,7 @@ h2 {
 }
 
 h3 {
-    margin: 2rem 0; /* مسافة 2rem من الأعلى والأسفل */
+    margin: 10rem 0; /* مسافة 2rem من الأعلى والأسفل */
     text-align: center; /* توسيط النص */
 }
 
@@ -154,7 +154,7 @@ h3 {
 }
 
 .portfolio-item2:hover img {
-    transform: scale(1.1);
+    transform: scale(9.16);
 }
 
 .portfolio-item2 img {
