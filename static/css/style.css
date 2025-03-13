@@ -135,11 +135,19 @@ h3 {
     cursor: pointer;
 }
 
+/* نسبة 1:1 لقسم "Advertising Posters" */
 .portfolio-item img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     transition: transform 0.3s ease;
+}
+
+/* نسبة 10:26 لقسم "Visual Identity" */
+.visual-identity .portfolio-item img {
+    aspect-ratio: 10 / 26; /* نسبة العرض إلى الارتفاع 10:26 */
+    height: 300px; /* الارتفاع يتكيف تلقائيًا */
+    object-fit: cover; /* الحفاظ على نسبة الصورة دون تشويه */
 }
 
 .portfolio-overlay {
