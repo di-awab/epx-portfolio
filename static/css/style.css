@@ -146,7 +146,7 @@ h3 {
 /* نسبة 26:10 لقسم "Visual Identity" */
 .visual-identity .portfolio-item img {
     aspect-ratio: 26 / 10; /* نسبة العرض إلى الارتفاع 26:10 */
-    max-height: 300px; /* ارتفاع أقصى 300 بكسل */
+    max-height: 30px; /* ارتفاع أقصى 300 بكسل */
     width: 100%; /* العرض يتكيف تلقائيًا */
     object-fit: cover; /* الحفاظ على نسبة الصورة دون تشويه */
     transition: transform 0.3s ease; /* تطبيق تأثير التحويل */
