@@ -145,7 +145,7 @@ h3 {
 
 /* نسبة 10:26 لقسم "Visual Identity" */
 .visual-identity .portfolio-item img {
-    aspect-ratio: 10 / 26; /* نسبة العرض إلى الارتفاع 10:26 */
+    aspect-ratio: 26 / 10; /* نسبة العرض إلى الارتفاع 10:26 */
     height: 300px; /* الارتفاع يتكيف تلقائيًا */
     object-fit: cover; /* الحفاظ على نسبة الصورة دون تشويه */
 }
