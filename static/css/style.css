@@ -68,6 +68,13 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.client-logo {
+    width: 100px; /* عرض الشعار */
+    height: auto; /* الارتفاع يتكيف تلقائيًا */
+    margin-bottom: 1rem; /* مسافة بين الشعار والنص */
+    object-fit: contain; /* الحفاظ على نسبة الشعار دون تشويه */
+}
+
 .nav ul {
     display: flex;
     list-style: none;
