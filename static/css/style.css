@@ -137,47 +137,11 @@ h3 {
 
 /* نسبة 1:1 لقسم "Advertising Posters" */
 .portfolio-item img {
-    width: 100%;
+    width: 800px;
     height: 300px;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
-
-/* نسبة 26:10 لقسم "Visual Identity" */
-.visual-identity .portfolio-item img {
-    aspect-ratio: 26 / 10; /* نسبة العرض إلى الارتفاع 26:10 */
-    max-height: 30px; /* ارتفاع أقصى 300 بكسل */
-    width: 100%; /* العرض يتكيف تلقائيًا */
-    object-fit: cover; /* الحفاظ على نسبة الصورة دون تشويه */
-    transition: transform 0.3s ease; /* تطبيق تأثير التحويل */
-}
-
-/* تأثيرات الـ Overlay */
-.portfolio-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 237, 255, 0.8), rgba(58, 142, 231, 0.8));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    color: white;
-}
-
-.portfolio-item:hover .portfolio-overlay {
-    opacity: 1;
-}
-
-.portfolio-item:hover img {
-    transform: scale(1.1);
-}
-
-/* ghjkl */
 
 .portfolio-overlay {
     position: absolute;
