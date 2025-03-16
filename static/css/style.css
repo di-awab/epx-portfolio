@@ -149,7 +149,7 @@ body {
 
 /* ############ */
 
-.portfolio, .clients, .contact {
+.portfolio, .clients, {
     padding: 5rem 5%;
 }
 
@@ -237,7 +237,8 @@ h3 {
 }
 
 /* تأكد من أن العنصر الأب (section.contact) يعرض الزر في المنتصف */
-.contact2 {
+.contact {
+    padding: 5rem 5%;
     display: flex;
     flex-direction: column;
     align-items: center; /* توسيط أفقيًا */
