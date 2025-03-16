@@ -206,6 +206,14 @@ h3 {
     -webkit-text-fill-color: transparent;
 }
 
+/* تأكد من أن العنصر الأب (section.contact) يعرض الزر في المنتصف */
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* توسيط أفقيًا */
+    text-align: center; /* توسيط النص */
+}
+
 /* تعديل تنسيق زر واتساب */
 .whatsapp-button {
     display: inline-flex;
