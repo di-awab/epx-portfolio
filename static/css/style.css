@@ -52,6 +52,11 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* تأثير انتقالي سلس للوجو */
+#site-logo {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
 .logo img {
     width: auto; /* يجعل العرض متناسبًا مع الارتفاع */
     height: 100px; /* يحدد ارتفاعًا ثابتًا لضمان تناسب الحجم */
