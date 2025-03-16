@@ -25,11 +25,7 @@ function updateThemeIcon(theme) {
 }
 
 function updateLogo(theme) {
-    if (theme === 'light') {
-        siteLogo.src = "img/logo.png"; // اللوجو للوضع الفاتح
-    } else {
-        siteLogo.src = "img/logo2.png"; // اللوجو للوضع الليلي
-    }
+    siteLogo.src = theme === 'light' ? "img/logo.png" : "img/logo2.png"; // تبديل اللوجو فورًا
 }
 
 // Initialize AOS
