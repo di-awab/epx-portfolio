@@ -117,7 +117,37 @@ body {
 .tagline {
     font-size: 1.5rem;
     color: var(--secondary-bg);
+    padding: 0 1.5rem; /* مسافة 1.5rem من اليمين واليسار */
+    max-width: 800px; /* عرض أقصى للنص */
+    margin: 0 auto; /* توسيط النص */
+    text-align: center; /* توسيط النص */
 }
+
+/* About Us Section */
+.about {
+    padding: 5rem 5%;
+    background-color: var(--primary-bg);
+    text-align: center;
+}
+
+.about h2 {
+    color: var(--secondary-bg);
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+.about-content p {
+    margin-bottom: 1.5rem;
+}
+
+/* ############ */
 
 .portfolio, .clients, .contact {
     padding: 5rem 5%;
