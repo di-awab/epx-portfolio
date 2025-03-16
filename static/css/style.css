@@ -149,9 +149,10 @@ body {
 
 /* ############ */
 
-.portfolio, .clients, {
-    padding: 5rem 5%;
+.portfolio, .clients {
+    padding: 5rem 5%; /* مسافة 5rem من الأعلى والأسفل، و5% من اليمين واليسار */
 }
+
 
 h2 {
     text-align: center;
