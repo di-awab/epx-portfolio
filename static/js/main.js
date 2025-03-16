@@ -1,11 +1,13 @@
 // Theme toggle functionality
 const themeToggle = document.getElementById('theme-toggle');
 const themeIcon = themeToggle.querySelector('i');
+const siteLogo = document.getElementById('site-logo'); // الوصول إلى عنصر اللوجو
 
 // Check for saved theme preference
 const savedTheme = localStorage.getItem('theme') || 'light';
 document.documentElement.setAttribute('data-theme', savedTheme);
 updateThemeIcon(savedTheme);
+updateLogo(savedTheme); // تحديث اللوجو بناءً على الوضع المحفوظ
 
 // Theme toggle click handler
 themeToggle.addEventListener('click', () => {
@@ -15,10 +17,19 @@ themeToggle.addEventListener('click', () => {
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
     updateThemeIcon(newTheme);
+    updateLogo(newTheme); // تحديث اللوجو عند تبديل الوضع
 });
 
 function updateThemeIcon(theme) {
     themeIcon.className = theme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+}
+
+function updateLogo(theme) {
+    if (theme === 'light') {
+        siteLogo.src = "img/logo.png"; // اللوجو للوضع الفاتح
+    } else {
+        siteLogo.src = "img/logo2.png"; // اللوجو للوضع الليلي
+    }
 }
 
 // Initialize AOS
