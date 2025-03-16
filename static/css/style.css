@@ -206,6 +206,7 @@ h3 {
     -webkit-text-fill-color: transparent;
 }
 
+/* تعديل تنسيق زر واتساب */
 .whatsapp-button {
     display: inline-flex;
     align-items: center;
@@ -214,16 +215,12 @@ h3 {
     color: white;
     text-decoration: none;
     border-radius: 50px;
-    position: fixed; /* جعل الزر ثابتًا في الشاشة */
-    top: 50%; /* توسيط عموديًا */
-    left: 50%; /* توسيط أفقيًا */
-    transform: translate(-50%, -50%); /* توسيط دقيق */
-    z-index: 1000; /* ضمان ظهور الزر فوق العناصر الأخرى */
+    margin: 0 auto; /* توسيط الزر أفقيًا */
     transition: transform 0.3s ease;
 }
 
 .whatsapp-button:hover {
-    transform: translate(-50%, -50%) scale(1.05); /* تأثير التكبير عند التمرير */
+    transform: scale(1.05); /* تأثير التكبير عند التمرير */
 }
 
 .whatsapp-button i {
