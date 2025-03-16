@@ -224,6 +224,7 @@ h3 {
     text-decoration: none;
     border-radius: 50px;
     margin: 0 auto; /* توسيط الزر أفقيًا */
+    margin-bottom: 2rem; /* إضافة مسافة أسفل الزر */
     transition: transform 0.3s ease;
 }
 
